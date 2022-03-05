@@ -53,6 +53,6 @@ The website has been done with Flask and pure HTML/CSS/JS.
 # [Link to Site](https://ntl-2022.herokuapp.com/)
 
 # Contributors
-- Lasya
-- Abid
-- Ronak
+
+| <p align="center">![Lasya](https://github.com/lasyapan.png?size=128)<br>[Lasya](https://github.com/lasyapan)</p> | <p align="center">![Aniruddha Chatterjee](https://github.com/ronsys11.png?size=128)<br>[Ronak](https://github.com/ronsys11)</p> | <p align="center">![Abid](https://github.com/abidarian.png?size=128)<br>[Abid](https://github.com/abidarian)</p> |
+| ---------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
