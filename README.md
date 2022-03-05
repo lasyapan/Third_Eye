@@ -38,7 +38,7 @@ As for the website, you can configure your device to send updates in this form:
 
 Otherwise, you can also just edit the values and do it from your browser just to see how it looks like.
 
-The website has been done with Flask and pure HTML/CSS/JS.
+The website has been done with Flask and vanilla HTML/CSS/JS.
 
 # To Do
 
