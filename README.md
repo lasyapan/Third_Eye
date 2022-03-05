@@ -52,4 +52,7 @@ The website has been done with Flask and pure HTML/CSS/JS.
 
 # [Link to Site](https://ntl-2022.herokuapp.com/)
 
-
+# Contributors
+- Lasya
+- Abid
+- Ronak
