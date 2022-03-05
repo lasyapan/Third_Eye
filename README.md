@@ -42,9 +42,9 @@ The website has been done with Flask and vanilla HTML/CSS/JS.
 
 # To Do
 
-- Allow updates via SMS as well
+- Respond to update requests via SMS
 - Better automatic refreshing (Right now, it just refreshes every few seconds)
-- Adding the ability to view several users' data  
+- Adding the ability to view several users' data under one account
 
 # Screenshot of Website
 
