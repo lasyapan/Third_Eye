@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+body{
+    background-color: white;
+    background-image: url("bg-pattern-top-desktop.svg"), url("bg-pattern-bottom-desktop.svg");
+    background-position: top left, bottom right;
+    background-repeat: no-repeat no-repeat;
+    background-size: auto, contain;
+    color: hsl(300, 43%, 22%);
+    font-family: 'Red Hat Display';
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 95%;
+    height: 95%;
+}
+
+
+h1{
+    font-weight: 700;
+    align-self: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.container{
+    align-self: center;
+    position: relative;
+    width: 80%;
+    max-width: 85%;
+    max-height: 70%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 10vh;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20vw;
+    grid-template-areas: 
+    "PULSE TEMP"
+    "MQ9 MQ135";
+    text-align: center;
+
+}
+
+.box{
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 0.5em;
+    box-shadow: 1px 1px 15px -6px hsl(300, 2%, 35%);
+    max-height: 95%;
+}
+
+h4{
+    font-size: 20px;
+    margin: 0;
+    padding: 2.5%;
+}
+
+p{
+    font-size: 14px;
+    color:hsl(303, 10%, 53%);
+    text-align: center;
+    padding-bottom: 1.5%;
+}
+
+.val{
+    font-size: 40px;
+    color: hsl(300, 16%, 50%);
+}
+
+.loc{
+    justify-content: space-around;
+    padding-top: 5%;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    text-align: center;
+}
+
+.loc a:link{
+    color: hsl(300, 40%, 21%)
+}
+
+.loc a:hover{
+    color:hsl(300, 18%, 46%);
+}
+
+.loc p{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 14px;
+}
