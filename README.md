@@ -15,9 +15,9 @@ With this in mind, our group decided to create a device that uses sensors to tra
 ![image](https://user-images.githubusercontent.com/62711442/156880427-f405e99a-ceaf-44ef-a740-b3499f905b86.png)
 
 - Four sensors monitor heart rate, air quality, temperature and current location.
-- The device uses the SIM900 GSM Module to send SMS alerts in case of any of the readings indicating a potential crisis. 
+- The device uses the SIM900 GSM Module to send SMS alerts in case of any of the readings indicate a potential crisis (by passing a threshhold value).
 - It also sends a request to the website with the sensor data.
-- The website then stores the data, and you can look at the new values once refreshed.
+- The website then stores the data, and you can look at the new values once refreshed as its updated.
 
 ![gif (2)](https://user-images.githubusercontent.com/62711442/156880545-ae12d377-9c7c-4833-b649-35f74c2bc38b.gif)
 
@@ -31,7 +31,7 @@ On the hardware side, we've used:
 - IR Body temp sensor
 - SIM900 GSM Module
 
-As for the website, you can configure your device to send updates in this form:
+As for the website, you can configure your device to send updates to the website in this form:
 
 ``` https://ntl-2022.herokuapp.com/update/APIKEY=694201a/PULSE=<value>/TEMP=<value>/MQ135=<value>/MQ9=<value>/LOC=<value> ```
 - `LOC` should be in the form of `<lat>,<long>` 
@@ -44,7 +44,7 @@ The website has been done with Flask and vanilla HTML/CSS/JS.
 
 - Respond to update requests via SMS
 - Better automatic refreshing (Right now, it just refreshes every few seconds)
-- Adding the ability to view several users' data under one account
+- Adding the ability to view several users' data under one account/multiple accounts
 
 # Screenshot of Website
 
